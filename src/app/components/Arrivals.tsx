@@ -3,7 +3,6 @@ import image1 from "../../public/Rectangle 22.png";
 import image2 from "../../public/Rectangle 21.png";
 import image3 from "../../public/Rectangle 20.png";
 
-
 import Cards from "./Cards";
 function Arrivals() {
   return (

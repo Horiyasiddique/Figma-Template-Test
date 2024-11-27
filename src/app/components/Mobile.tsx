@@ -6,18 +6,18 @@ import { IoLogoGooglePlaystore } from "react-icons/io5";
 
 function Mobile() {
   return (
-    <div className="w-screen h-screen py-5 px-14 flex justify-between items-center">
+    <div className="w-screen p-14 flex justify-between items-center">
       <div className="flex flex-col justify-center gap-7 ">
-        <div className="font-black text-5xl">
-          <h2>DOWNLOAD APP &</h2>
-          <h2>GET THE VOUCHER!</h2>
+        <div className="w-2/3 font-extrabold text-4xl">
+          <h2>DOWNLOAD APP & GET THE VOUCHER!</h2>
+          
         </div>
-        <div className="font-medium text-2xl w-[500px]">
+        <div className="font-normal text-xl w-2/4">
           get 30% off for first transaction using Rondovision mobile app for
           now.
         </div>
         {/* button container */}
-        <div className="flex justify-center items-center gap-5">
+        <div className="flex justify-start flex-wrap items-center gap-5">
           {/* button 1 */}
           <button className="bg-black text-white w-[11.75rem] h-[4.438rem] rounded-xl gap-7 flex justify-center items-center">
             <div className="flex">
@@ -49,7 +49,7 @@ function Mobile() {
         <Image
           src={mobileImage}
           alt="get the app"
-          className="h-[600px] w-[400px]"
+          className="h-[300px] w-[400px] md:h-[500px] md:w-[350px]"
         ></Image>
       </div>
     </div>
